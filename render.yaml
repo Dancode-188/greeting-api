@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: greeting-api
+    runtime: node  # Correct value for Node.js runtime
+    buildCommand: npm install
+    startCommand: node app.js
+    plan: free
+
